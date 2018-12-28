@@ -1,0 +1,1 @@
+execVM "ddopp\init.sqf";	
