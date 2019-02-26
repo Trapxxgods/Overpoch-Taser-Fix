@@ -84,7 +84,7 @@ DDOPP_taser_driveStun = {
 };
 DDOPP_taser_handleHit = {
     private ["_shooter","_selection","_damage","_shooter","_bullet"];
-    diag_log(format["Taser effect incoming %1",str(_this)]);
+    Stop RPT SPAM//diag_log(format["Taser effect incoming %1",str(_this)]);
     _victim    = _this select 0;
     _selection = _this select 1;
     _damage    = _this select 2;
